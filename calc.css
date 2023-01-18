@@ -1,0 +1,109 @@
+body
+{
+    background-color: aquamarine;
+}
+h1
+{
+    text-align: center;
+    color: black;
+    margin-top: 120px;
+}
+.screen
+{
+    background-color: gray;
+    border: solid black 2px;
+    color: antiquewhite;
+    font-size: medium;
+    width: 100%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+input[type='button']:hover
+{
+    background-color: wheat;
+}
+input[type='button']:active
+{
+    background-color:lightcyan;
+}
+.operator
+{
+    background-color: greenyellow;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 160%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.number
+{
+    padding: 5px;
+    height: 30px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    cursor: pointer;
+    font-size:larger;
+    font-weight: bold;
+}
+.decimal
+{
+    padding: 5px;
+    height: 30px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer; 
+    font-weight: bolder;
+}
+.clear
+{
+    background-color: red;
+    padding: 5px;
+    height: 40px;
+    color: black;
+    border: solid black 3px;
+    width: 160%;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.equal-sign
+{
+    background-color:goldenrod;
+    padding: 5px;
+    height: 30px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    cursor: pointer;
+    margin: auto;
+    font-weight: bolder;
+    font-size: large;
+}
+.container
+{
+    background-color: white;
+    padding: 25px;
+    padding-right: 60px;
+    color: black;
+    border: solid black 2px;
+    width: 25%;
+    display: block;
+    align-self: center;
+    border-radius: 20px;
+    margin: 40px auto;
+    box-shadow: 20px 20px 20px black;
+}
+table
+{
+    width: 100%;
+}
